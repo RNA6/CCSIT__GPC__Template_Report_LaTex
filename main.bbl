@@ -1,0 +1,191 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Tanaka2025VDocRAGRG}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=2d8e0e1f33fcf559e78856e75a4071c4}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Ryota},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a0c4862e753788952229a9b5607294f6}{%
+           family={Iki},
+           familyi={I\bibinitperiod},
+           given={Taichi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b49699d91d1b713ce0f4ceb413ef710f}{%
+           family={Hasegawa},
+           familyi={H\bibinitperiod},
+           given={Taku},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a951d343970ab833da7f469b3e4323ad}{%
+           family={Nishida},
+           familyi={N\bibinitperiod},
+           given={Kyosuke},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2f777bd3f49fa8a751c1ee256b01c026}{%
+           family={Saito},
+           familyi={S\bibinitperiod},
+           given={Kuniko},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3369fb96eb743911adabefede38bda8f}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{124c42511850a5a9c8cd131bd0e909e2}
+      \strng{fullhash}{25a451dfee0f51011bcd5b4921be8ebb}
+      \strng{fullhashraw}{25a451dfee0f51011bcd5b4921be8ebb}
+      \strng{bibnamehash}{25a451dfee0f51011bcd5b4921be8ebb}
+      \strng{authorbibnamehash}{25a451dfee0f51011bcd5b4921be8ebb}
+      \strng{authornamehash}{124c42511850a5a9c8cd131bd0e909e2}
+      \strng{authorfullhash}{25a451dfee0f51011bcd5b4921be8ebb}
+      \strng{authorfullhashraw}{25a451dfee0f51011bcd5b4921be8ebb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{title}{VDocRAG: Retrieval-Augmented Generation over Visually-Rich Documents}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arXiv.2504.09795
+      \endverb
+    \endentry
+    \entry{Dong2026DocResearcherAU}{article}{}{}
+      \name{author}{12}{}{%
+        {{hash=7e08dd4ef2d02ec0b962247a4bd3f69b}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Kui-Cai},
+           giveni={K\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=5dab2b0e17f689b06b737d8557dd1d09}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Shurui},
+           giveni={S\bibinitperiod}}}%
+        {{hash=88a5815133939885708b6d415e96c9eb}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Fangda},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8b758de66cb65310a5a03a6a4fd6ef0f}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b96e05ed0e1b08189597f7c933749b97}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=2e053969118046eb0b9f5b4f3e654db8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Dexun},
+           giveni={D\bibinitperiod}}}%
+        {{hash=72ae05b7a85b06741e6bc7db984d2b9f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Wen-Jun},
+           giveni={W\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=73c460e73f18776e645f8b49395679f9}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Qu},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=3d33b99ab2b9fa2c7987e1d7f5873222}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8f65211338304e9020a22de8a0382892}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yi-Chao},
+           giveni={Y\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=c9191dc69bc22ce41fc456ae9eb63db8}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bc6c6f66f139beef784a50d9f1485019}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{60d31cc894aad47b2a216bed4cd92745}
+      \strng{fullhash}{a77abaee28047ea95114eb4fd2cdc233}
+      \strng{fullhashraw}{a77abaee28047ea95114eb4fd2cdc233}
+      \strng{bibnamehash}{60d31cc894aad47b2a216bed4cd92745}
+      \strng{authorbibnamehash}{60d31cc894aad47b2a216bed4cd92745}
+      \strng{authornamehash}{60d31cc894aad47b2a216bed4cd92745}
+      \strng{authorfullhash}{a77abaee28047ea95114eb4fd2cdc233}
+      \strng{authorfullhashraw}{a77abaee28047ea95114eb4fd2cdc233}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the ACM Web Conference 2026}
+      \field{title}{Doc-Researcher: A Unified System for Multimodal Document Parsing and Deep Research}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.1145/3774904.3792599
+      \endverb
+    \endentry
+    \entry{Gosmar2026MADPAM}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=063123e9580415899de54d47da146b4f}{%
+           family={Gosmar},
+           familyi={G\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6e43bfcb427c8be9677c26d8a9e46da1}{%
+           family={Zenezini},
+           familyi={Z\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{48d614a73232136a6b37e1562e3c9dcf}
+      \strng{fullhash}{48d614a73232136a6b37e1562e3c9dcf}
+      \strng{fullhashraw}{48d614a73232136a6b37e1562e3c9dcf}
+      \strng{bibnamehash}{48d614a73232136a6b37e1562e3c9dcf}
+      \strng{authorbibnamehash}{48d614a73232136a6b37e1562e3c9dcf}
+      \strng{authornamehash}{48d614a73232136a6b37e1562e3c9dcf}
+      \strng{authorfullhash}{48d614a73232136a6b37e1562e3c9dcf}
+      \strng{authorfullhashraw}{48d614a73232136a6b37e1562e3c9dcf}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ArXiv}
+      \field{title}{MADP: A Multi-Agent Pipeline for Sustainable Document Processing with Human-in-the-Loop}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.48550/arXiv.2605.17159
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

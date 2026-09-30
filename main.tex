@@ -1,0 +1,321 @@
+%% =====================================================================
+%% KSA / KFU - CCSIT Graduation Project Report Template (LaTeX2e)
+%% THIS IS THE FILE YOU EDIT.
+%% ---------------------------------------------------------------------
+%% Files in this package:
+%%   ccsit-preamble.tex   fixed layout            -- do not edit
+%%   ccsit-macros.tex     your project details    -- EDIT THIS
+%%   cover.tex            title page
+%%   acknowledgment.tex   your acknowledgment     -- EDIT THIS
+%%   undertaking.tex      signed declaration      -- do not edit the text
+%%   bibliography.bib     your references         -- EDIT THIS
+%%   CCSIT-Logo.png       college logo
+%%   figures/             your images
+%%
+%% Compile with pdfLaTeX; Biber runs between the LaTeX passes:
+%%     pdflatex main.tex / biber main / pdflatex main.tex / pdflatex main.tex
+%% =====================================================================
+
+\documentclass[11pt,a4paper]{report}
+
+\input{ccsit-preamble}
+\input{ccsit-macros}
+\input{acknowledgment}
+\input{undertaking}
+
+%% =====================================================================
+%%                           DOCUMENT
+%% =====================================================================
+\begin{document}
+
+%% ----------------------------- Title Page -----------------------------
+\input{cover}
+
+%% ----------------------------- Acknowledgment Page -----------------------------
+\cleardoublepage
+\thispagestyle{empty}
+\begin{center}
+{\Large \textbf{Acknowledgment}}
+\end{center}
+
+\vspace{6mm}
+\gpAcknowledgmentText
+
+%% ----------------------------- Undertaking -----------------------------
+\cleardoublepage
+\thispagestyle{empty}
+\begin{center}
+{\Large \textbf{Undertaking}}
+\end{center}
+
+\vspace{6mm}
+\gpUndertakingText
+
+\vfill
+\noindent \textbf{Prepared by:}\\[3mm]
+\begin{tabular}{@{}p{0.62\textwidth}p{0.34\textwidth}@{}}
+\gpStudentA\ (\gpStudentAID) & Signature:\ \rule{45mm}{0.4pt}\\[4mm]
+\gpStudentB\ (\gpStudentBID) & Signature:\ \rule{45mm}{0.4pt}\\[4mm]
+\gpStudentC\ (\gpStudentCID) & Signature:\ \rule{45mm}{0.4pt}\\
+\end{tabular}
+
+\vspace{6mm}
+\noindent Date:\ \rule{55mm}{0.4pt}
+
+%% ----------------------------- Front Matter -----------------------------
+\cleardoublepage
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+
+% Write a concise abstract (250--300 words).
+[Write your abstract here (250--300 words).]
+
+\vspace{4mm}
+\noindent\textbf{Keywords:} keyword1; keyword2; keyword3; keyword4
+
+\cleardoublepage
+\tableofcontents
+
+\cleardoublepage
+\listoftables
+\addcontentsline{toc}{section}{List of Tables}
+
+
+
+
+\cleardoublepage
+\listoffigures
+\addcontentsline{toc}{section}{List of Figures}
+
+%% ----------------------------- Acronyms -----------------------------
+\cleardoublepage
+\section*{List of Acronyms}
+\addcontentsline{toc}{section}{List of Acronyms}
+
+\begin{acronym}[123456]
+  \acro{API}{Application Programming Interface}
+  \acro{AI}{Artificial Intelligence}
+  \acro{NLP}{Natural Language Processing}
+  \acro{GPU}{Graphics Processing Unit}
+\end{acronym}
+
+%% ----------------------------- Main Matter -----------------------------
+\cleardoublepage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section{First-Heading}
+\subsection{First-Sub-heading-1}
+\subsubsection{First-Sub-subheading-1-a}
+\subsubsection{First-Sub-subheading-1-b}
+\subsection{First-Sub-heading-2}
+\subsubsection{First-Sub-subheading-2-a}
+\subsubsection{First-Sub-subheading-2-b}
+
+\section{Second-Heading}
+\subsection{Second-Sub-heading-1}
+\subsubsection{Second-Sub-subheading-1-a}
+\subsubsection{Second-Sub-subheading-1-b}
+\subsection{Second-Sub-heading-2}
+\subsubsection{Second-Sub-subheading-2-a}
+\subsubsection{Second-Sub-subheading-2-b}
+This project follows software engineering principles \cite{Tanaka2025VDocRAGRG}.
+Similar AI-based solutions have been reported in recent studies \cite{Dong2026DocResearcherAU}.
+A comparable system design was presented in \cite{Gosmar2026MADPAM}.
+
+Acronyms are expanded automatically on first use. 
+The proposed system exposes an \ac{API} that applies
+\ac{AI} and \ac{NLP} techniques on a \ac{GPU}, and every later mention of the \ac{API} prints the
+short form only.
+
+%% ----------------------------- References -----------------------------
+\cleardoublepage
+\printbibliography
+\addcontentsline{toc}{section}{References}
+
+%% ----------------------------- Appendices -----------------------------
+\appendix
+\cleardoublepage
+%% ----------------------------- AppendixA -----------------------------
+\section*{Appendix A: Additional Materials}
+\addcontentsline{toc}{section}{Appendix A: Additional Materials}
+
+The following equation is provided only as an illustrative example to demonstrate how to include a general numbered equation in this report template.
+
+\begin{equation}
+\label{eq:general-example}
+y = ax + b
+\end{equation}
+
+\begin{subequations}
+\label{eq:subequations-example}
+\begin{align}
+y &= ax + b \label{eq:subeq-a}\\
+x &= \frac{y-b}{a} \label{eq:subeq-b}\\
+x^{10} &= y - b \label{eq:subeq-c}\\
+f^{(k)}(x) &\neq f_i(x)
+\end{align}
+\end{subequations}
+
+Table~\ref{tab:general-comparison} is included only as an example to demonstrate table formatting in this report template.
+
+\begin{table}[H]
+\centering
+\caption{General comparison between existing solutions and the proposed system.}
+\label{tab:general-comparison}
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Criteria} & \textbf{Existing Solutions} & \textbf{Proposed System} \\
+\hline
+Ease of use & Moderate & High \\
+\hline
+Accuracy of results & Moderate & Improved \\
+\hline
+User interface clarity & Basic & Enhanced \\
+\hline
+Automation level & Limited & High \\
+\hline
+Reliability & Moderate & High \\
+\hline
+Scalability & Limited & Good \\
+\hline
+Reporting and documentation & Basic & Detailed \\
+\hline
+\end{tabular}
+\end{table}
+
+The following table is provided only as an illustrative example to demonstrate how to include a bordered table with \textbf{merged column headers} in this report template (Table~\ref{tab:general-comparison-merged}).
+
+\begin{table}[H]
+\centering
+\caption{Comparison of system characteristics.}
+\label{tab:general-comparison-merged}
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Feature} & \multicolumn{2}{c|}{\textbf{System Type}} \\
+\cline{2-3}
+ & \textbf{Traditional Approach} & \textbf{Proposed Approach} \\
+\hline
+User experience & Average & Improved \\
+\hline
+System flexibility & Low & High \\
+\hline
+Maintenance effort & High & Lower \\
+\hline
+Processing speed & Moderate & Faster \\
+\hline
+Overall efficiency & Moderate & High \\
+\hline
+\end{tabular}
+\end{table}
+
+The following table is provided only as an illustrative example to demonstrate how to include a bordered table with \textbf{merged rows} in this report template (Table~\ref{tab:general-comparison-categories}).
+
+\begin{table}[H]
+\centering
+\caption{General comparison of project features.}
+\label{tab:general-comparison-categories}
+\begin{tabular}{|l|l|c|c|}
+\hline
+\textbf{Category} & \textbf{Criteria} & \textbf{Existing} & \textbf{Proposed} \\
+\hline
+\multirow{2}{*}{Usability}
+& Ease of use & Medium & High \\
+\cline{2-4}
+& Accessibility & Medium & High \\
+\hline
+\multirow{2}{*}{Performance}
+& Reliability & Medium & High \\
+\cline{2-4}
+& Response speed & Medium & High \\
+\hline
+\multirow{2}{*}{Output Quality}
+& Report clarity & Basic & Detailed \\
+\cline{2-4}
+& Output consistency & Medium & High \\
+\hline
+\end{tabular}
+\end{table}
+
+The following table is provided only as an illustrative example to demonstrate how to include a bordered table with \textbf{merged rows and merged column headers} in this report template (Table~\ref{tab:merged-rows-cols-example}).
+
+\begin{table}[H]
+\centering
+\caption{Illustrative comparison table (example only).}
+\label{tab:merged-rows-cols-example}
+\begin{tabular}{|l|l|c|c|}
+\hline
+\multirow{2}{*}{\textbf{Category}}
+& \multirow{2}{*}{\textbf{Criteria}}
+& \multicolumn{2}{c|}{\textbf{Comparison}} \\
+\cline{3-4}
+ &  & \textbf{Option A} & \textbf{Option B} \\
+\hline
+\multirow{2}{*}{Usability}
+& Ease of use & High & Medium \\
+\cline{2-4}
+& Clarity of interface & High & Medium \\
+\hline
+\multirow{2}{*}{Quality}
+& Reliability & High & Medium \\
+\cline{2-4}
+& Output clarity & High & Medium \\
+\hline
+\multirow{2}{*}{Efficiency}
+& Time required & Low & Medium \\
+\cline{2-4}
+& Effort required & Low & Medium \\
+\hline
+\end{tabular}
+\end{table}
+
+The following code listing is provided only as an illustrative example to demonstrate how to include a numbered and captioned code excerpt in this report template (Listing~\ref{lst:example}).
+
+\begin{lstlisting}[language=Python, caption={Example function that normalizes an input string.}, label={lst:example}]
+def normalize(text):
+    """Return the text in lower case, without leading or trailing spaces."""
+    return text.strip().lower()
+\end{lstlisting}
+
+As shown in Listing~\ref{lst:example}, source code is typeset with line numbers and a caption placed above the excerpt. Set \texttt{language} to the language of your own code, for example \texttt{Java}, \texttt{C}, \texttt{Python}, or \texttt{SQL}. Include only short, meaningful excerpts in the report; complete source files belong in the submitted code archive.
+
+%% ----------------------------- AppendixB -----------------------------
+\section*{Appendix B: Project Screenshots}
+\addcontentsline{toc}{section}{Appendix B: Project Screenshots}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{ex.png}
+\caption{Official CCSIT logo used in this graduation project report.}
+\label{fig:ccsit-logo-overall}
+\end{figure}
+
+As shown in Figure~\ref{fig:ccsit-logo-overall}, the official CCSIT logo is presented for institutional identification and report branding.
+
+\begin{figure}[H]
+\centering
+
+\begin{subfigure}[b]{0.45\textwidth}
+\centering
+\includegraphics[width=0.75\textwidth]{ex.png}
+\caption{King Faisal University (KFU) logo.}
+\label{fig:kfu-logo}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.45\textwidth}
+\centering
+\includegraphics[width=0.75\textwidth]{ex.png}
+\caption{College of Computer Sciences \& Information Technology (CCSIT) logo.}
+\label{fig:ccsit-logo}
+\end{subfigure}
+
+\caption{Institutional logos used for official report branding.}
+\label{fig:logos}
+\end{figure}
+
+Figure~\ref{fig:logos} presents the institutional logos used in this report.
+
+\end{document}
